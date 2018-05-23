@@ -545,7 +545,7 @@ colors = ["gold", "lightblue",  "lightcoral" ]
 explode = (0, 0, 0.5)
 
 #plot and format pie chart 
-plt.pie(pct_fare, explode=explode, labels=types, colors=colors,
+plt.pie(rides_pct, explode=explode, labels=types, colors=colors,
         autopct="%1.1f%%", shadow=False, startangle=140)
 
 #make axis equal
